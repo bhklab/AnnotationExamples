@@ -40,7 +40,7 @@ ranged_features[
 ]
 
 # drop Y chromosome version if duplicated genes
-## This statement does a select for rows into groups defined by rownames
+## This statement does a select for rows within groups defined by rownames
 ## The statement is only applied in cases where there are more than 1 items in
 ##   a group. I.e., where there are duplicated rownames!
 ## See: https://rdatatable.gitlab.io/data.table/articles/datatable-sd-usage.html
